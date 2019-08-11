@@ -46,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
 
 }
 
-body {background:#f0f2f2;padding-bottom:120px;font-family: "times,arial";}
+body {background:#f0f2f2;padding-bottom:120px;font-family: times;}
 
 ol, ul {
 
@@ -343,11 +343,12 @@ a{cursor:pointer;}
 
 .profile-img img {display:block; max-width:100%;}
 
-.profile-info{width:60.5%; float:left; letter-spacing:-1px;}
+/* .profile-info{width:60.5%; float:left; letter-spacing:-1px;} */
+.profile-info{width:60.5%; float:left;}
 
 .profile-info h3{font:400 19px/24px "Open Sans"; margin-bottom:15px !important; letter-spacing:0px;}
 
-.profile-info p{font:400 15px/27px "Open Sans" ; margin-bottom:20px;}
+.profile-info p{margin-bottom:20px;}
 
 .profile-info p:last-child{margin-bottom:0px;}
 
